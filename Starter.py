@@ -1,5 +1,5 @@
 import openai
-openai.api_key = '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'
+openai.api_key = 'API - Key'
 def get_chatgpt_responses(query, n_responses=5):
     response = openai.Completion.create(
         engine="text-davinci-003",
